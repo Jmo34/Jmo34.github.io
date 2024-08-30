@@ -1,15 +1,18 @@
 body {
     font-family: "Oswald", sans-serif;
-    margin: 0 auto;
-    max-width: 80%;
-    height: 100px;
+    margin: 0 10%;
   }
+
 .container {
-    border: 1px solid #2c553c;
-    padding: 20px;
-    margin: 10px auto;
-    width: 100%;
+    border: 1px solid #a2a2a6;
+    box-sizing: content-box;
+    width: 100%
   }
+
+.color-container { 
+  width: 100%
+}
+
 .color-panel {
   display: inline-block;
   width: 32%;
@@ -17,9 +20,71 @@ body {
   margin: 20px auto;
   min-height: 100px;
 }
+
 .cadet-blue {
   background-color: rgb(95, 158, 160);
 }
+
 .dark-golden-rod {
   background-color: rgb(184, 134, 11);
+}
+
+.burley-wood {
+  background-color: rgb(222, 184, 135)
+}
+
+.coral {
+  background-color: rgb(255, 127, 80)
+}
+
+.font-panel {
+  width: 45%;
+  display: inline-block;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.oswald {
+   font-family: "Oswald", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.monsterrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Oswald", sans-serif;
 }
